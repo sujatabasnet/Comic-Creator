@@ -1,0 +1,37 @@
+.App {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../public/main2.jpg") center/cover no-repeat;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px;
+  grid-gap: 2px;
+}
+
+.item {
+  height: 200px;
+}
+
+.parent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 10px;
+  font-size: 18px; 
+}
+
+
